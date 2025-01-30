@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>comprison and logical operator</title>
+</head>
+<body>
+    <pre>
+       comparison operator
+       == -> equal to
+       === -> equal value and same data type
+       != -> not equal to
+       !== -> not equal value or different data type
+       <,>,<=,>=
+       
+       logical operator
+       or(||) -> returns true if any one condition is true otherwise false
+       and(&&) -> returns true if all condition are true otherwise false
+       not(!) -> returns opposite result
+    </pre>
+    <script>
+        const x=12
+        const y=20
+        const z=25
+        const a=(x<y || z<y)
+            document.write(`${a} <br>`)
+
+            const b=(x<y && z<y)
+            document.write(`${b} <br>`)
+
+            const c=(y<x && z>y)
+            document.write(`${c} <br>`)
+
+            document.write(x==y)
+            document.write('<br>')
+            document.write(12==='12')
+            document.write('<br>')
+            document.write(12===12)
+            docuument.write('<br>')
+            document.wwrite(15 !=20)
+    </script>
+ 
+
+</body>
+</html>
