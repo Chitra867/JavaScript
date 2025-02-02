@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function</title>
+</head>
+<body>
+    <pre>
+        functiond is a block of code to perform the particular task.
+        function can be reuse many times
+        function is always called using parenthesis () e.g. demo()
+        function is defined as follows:
+               function demo(){
+                .....code goes here....
+               }
+    </pre>
+    <script>
+        //define the function
+        // function demoFunction(){
+        //     document.write('this is a demo function')
+        // }
+        const demoFunction=()=>{
+            document.write('this is a demo function define using arrow function')
+        }
+
+
+
+//call the function
+demoFunction()
+
+   //function with argument
+
+   //define the function
+
+//    function addNumber(a,b){
+//     const c= a+b
+//     document.write(`<br> ${c}`)
+//    }
+
+         const addNumber=(a,b)=>{
+            const c= a+b
+            document.write(`<br> ${c}`)
+         }
+
+
+   //call the function
+   addNumber(20,30)
+
+
+    //function with return type
+
+    //define the function
+    // function subFunction(firstNum,secondNum){
+    //     return firstNum-secondNum
+    // }
+    const subFunction=(a,b)=> a-b
+    
+
+    //call the function
+    const result=subFunction(40,25)
+    document.write(`<br> the result is ${result} <br>`)
+
+    const result1=subFunction(100,30)
+    document.write(`${result1}`)
+    </script>
+</body>
+</html>
