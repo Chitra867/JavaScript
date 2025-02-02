@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>light on and off</title>
+</head>
+<body>
+    <div>
+        <img src="images/lightOff.webp" alt="" id="image"><br>
+        <button onclick="switchOn()">Switch on</button>
+        <button onclick="switchOff()">Switch off</button>
+    </div>
+    <script>
+        const switchOn=()=>{
+            document.getElementById('image').src='images/lighton.webp'
+        }
+
+        const switchOff=()=>{
+            document.getElementById('image').src='images/lightOff.webp'
+        }
+    </script>
+</body>
+</html>
