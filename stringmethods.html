@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>string method</title>
+</head>
+<body>
+    <script>
+        const text=`Welcome to my website to read programming language`
+        document.write(`${text} <br>`)
+        //to count the number of character in a string use length
+        document.write(`${text.length} <br>`)
+        //to find the position of specific string in a string use indexOf()
+        document.write(`${text.indexOf('to')} <br>`)
+        //to find the last position of repeted string in string use lastIndexOf()
+        document.write(`${text.lastIndexOf('to')} <br>`)
+        //substring -> small part os a string
+        //slice(start,end) eg slice(3,20)
+        //substring(start,end) eg substring(3,20)
+        //sunstr(start,length) eg substr(3,20)
+
+        document.write(`${text.slice(0,21)}.............<br>`)
+        document.write(`${text.substring(3,21)}................<br>`)
+        document.write(`${text.substr(3,21)}...........<br>`)
+        //replace
+        document.write(`${text.replace('read','learn')} <br>`)
+        //replaceAll
+        document.write(`${text.replaceAll('Welcome to my website to read programming language','Hello! Everyone')}<br>`)
+
+
+
+
+    </script>
+</body>
+</html>
