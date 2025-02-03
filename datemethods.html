@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date Methods</title>
+</head>
+<body>
+    <script>
+        const date= new Date()
+        document.write(`${date}<br>`)
+        //to get year use getFullYear
+        document.write(`${date.getFullYear()}<br>`)
+        //to get month use getMonth() -> returns value from 0 and 11
+        document.write(`${date.getMonth()}<br>`)
+        //to get date use getDate() -> returns value from 1 nad 31
+        document.write(`${date.getDate()}<br>`)
+        //to get day of the week use getday() -> 0-6
+        document.write(`${date.getDay()}<br>`)
+        //getHours() ->0-23
+        document.write(`${date.getHours()}<br>`)
+        //getMinutes() ->0-59
+        document.write(`${date.getMinutes()}<br>`)
+        //getseconds() ->0-59
+        document.write(`${date.getSeconds()}<br>`)
+        //getMilliseconds() -> 0-99
+        document.write(`${date.getMilliseconds()}<br>`)
+        
+        document.write(`${date.toLocaleDateString()}<br>`)
+        document.write(`${date.toLocaleTimeString()}<br>`)
+
+        
+
+
+    </script>
+</body>
+</html>
