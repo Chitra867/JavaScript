@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Methods</title>
+</head>
+<body>
+    <script>
+        const x=15.1345674
+        //toFixed() -> to show how many digits to be printed after decmal points
+        document.write(`${x.toFixed(2)}<br>`)
+        document.write(`${x.toFixed(4)}<br>`)
+        document.write(`${x.toFixed(0)}<br>`)
+
+        //toPrecision()  -> to show how many digits to be printed as a whole
+        document.write(`${x.toPrecision(2)} <br>`)
+        document.write(`${x.toPrecision(3)} <br>`)
+
+        //toExponential()
+        document.write(`${x.toExponential(3)} <br>`)
+
+        //to convert sting to number use the folloeing methods
+        //Number() -> it will returns both integer and float number
+        //parseIn() -> it will returns only integer
+        //parsFloat() -> it will returns both integer and float number
+
+        document.write(parseInt('15.24')+'<br>')
+        document.write(parseFloat('hello')+'<br>')
+
+
+
+    </script>
+</body>
+</html>
