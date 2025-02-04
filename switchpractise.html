@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>switch practise using arithmetic</title>
+</head>
+<body>
+    <script>
+        const x=parseFloat(prompt('please enter the first number'))
+        const y=parseFloat(prompt('please enter the second number'))
+        const operator=prompt('tell me what you want to do e.g. +,-,/,*,%')
+        switch(operator){
+            case '+':
+                const a= x+y
+                document.write(`The addition is ${a}`)
+                break
+            case '-':
+                const b= x-y
+                document.write(`The Subtraction is ${b}`)
+                break
+            case '/':
+                const c= x/y
+                document.write(`The division is ${c}`)
+                break
+            case '*':
+                const d= x*y
+                document.write(`The multiplication is ${d}`)
+                break
+            case '%':
+                const e= x%y
+                document.write(`The reminder of ${e}`)
+                break
+                default:
+                    document.write('Invalid operator')
+
+
+
+        }
+    </script>
+    
+</body>
+</html>
